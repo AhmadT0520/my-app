@@ -1,0 +1,39 @@
+/* components/Header.module.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Light background color */
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 10px;
+  }
+  
+  .siteName {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .profileContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profilePic {
+    border-radius: 50%; /* Circular profile picture */
+    margin-right: 10px;
+  }
+  
+  .userName {
+    font-size: 1rem;
+  }
+  
